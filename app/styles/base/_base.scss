@@ -5,9 +5,13 @@
 }
 
 body{
+  font-family: sans-serif;
 }
 
 a{
+  text-decoration: none;
+  color: $grey;
   &:hover{
+    color:$light-grey;
   }
 }
