@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'monster-creator',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://monstercreator.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
