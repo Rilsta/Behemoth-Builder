@@ -5,7 +5,9 @@
 }
 
 body{
+  color: $white;
   font-family: sans-serif;
+  background: #2c1758;
 }
 
 a{
@@ -13,5 +15,14 @@ a{
   color: $grey;
   &:hover{
     color:$light-grey;
+  }
+}
+
+button{
+  border: none;
+  color: $white;
+  padding: 10px;
+  &:focus{
+    outline: none;
   }
 }
