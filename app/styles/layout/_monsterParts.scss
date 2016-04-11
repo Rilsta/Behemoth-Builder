@@ -1,0 +1,43 @@
+.head{
+  fill: $valhalla;
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  animation: bobbin2 1.5s ease-in-out infinite;
+}
+.torso{
+  fill: $viridian;
+  position: absolute;
+  bottom: 300px;
+  animation: bobbin 1.5s ease-in-out infinite;
+}
+
+svg{
+
+  bottom: 10%;
+  animation: bobbin 1.5s ease-in-out infinite;
+}
+
+@keyframes bobbin{
+  0%{
+    bottom: 10%;
+  }
+  50%{
+    bottom: 11%;
+  }
+  100%{
+    bottom:10%;
+  }
+}
+
+@keyframes bobbin2{
+  0%{
+    left: 9%;
+  }
+  50%{
+    left: 10%;
+  }
+  100%{
+    left:9%;
+  }
+}
