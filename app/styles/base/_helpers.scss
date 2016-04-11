@@ -1,0 +1,14 @@
+.main-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.side-container{
+  border: 1px solid red;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vw;
+  width: 25vw;
+}
