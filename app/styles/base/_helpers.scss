@@ -1,7 +1,8 @@
 .main-container{
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 
 .top-container{
@@ -14,4 +15,9 @@
 
 .monster-mash{
   width: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
 }

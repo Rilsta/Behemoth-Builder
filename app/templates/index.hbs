@@ -12,6 +12,7 @@
 
 </div>
 <!-- <img src="/torso-square.svg" alt="" /> -->
-<div class="monster-mash">
-  {{monster-tile model=monster}}
-</div>
+
+{{#each model as |monster|}}
+  {{monster-tile monster=monster}}
+{{/each}}
