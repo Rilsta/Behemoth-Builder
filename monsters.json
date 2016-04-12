@@ -6,5 +6,30 @@
     "leftArm": "leftArm-square",
     "rightArm": "rightArm-square",
     "legs": "legs-square"
+  }],
+  "heads": [{
+    "squareHead": "Square",
+    "circleHead": "Circle",
+    "triangleHead": "Triangle"
+  }],
+  "torsos": [{
+    "squareTorso": "Square",
+    "circleTorso": "Circle",
+    "triangleTorso": "Triangle"
+  }],
+  "leftArms": [{
+    "squareLeftArm": "Square",
+    "circleLeftArm": "Circle",
+    "triangleLeftArm": "Triangle"
+  }],
+  "rightArms": [{
+    "squareRightArm": "Square",
+    "circleRightArm": "Circle",
+    "triangleRightArm": "Triangle"
+  }],
+  "legs": [{
+    "squareLegs": "Square",
+    "circleLegs": "Circle",
+    "triangleLegs": "Triangle"
   }]
 }
