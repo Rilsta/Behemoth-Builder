@@ -8,28 +8,28 @@
     "legs": "legs-square"
   }],
   "heads": [{
-    "squareHead": "Square",
-    "circleHead": "Circle",
-    "triangleHead": "Triangle"
+    "squareHead": "/monsterparts/square-head.svg",
+    "circleHead": "/monsterparts/circle-head.svg",
+    "triangleHead": "/monsterparts/triangle-head.svg"
   }],
   "torsos": [{
-    "squareTorso": "Square",
-    "circleTorso": "Circle",
-    "triangleTorso": "Triangle"
+    "squareTorso": "/monsterparts/square-torso.svg",
+    "circleTorso": "/monsterparts/circle-torso.svg",
+    "triangleTorso": "/monsterparts/triangle-torso.svg"
   }],
   "leftArms": [{
-    "squareLeftArm": "Square",
-    "circleLeftArm": "Circle",
-    "triangleLeftArm": "Triangle"
+    "squareLeftArm": "/monsterparts/square-leftArm.svg",
+    "circleLeftArm": "/monsterparts/circle-leftArm.svg",
+    "triangleLeftArm": "/monsterparts/triangle-leftArm.svg"
   }],
   "rightArms": [{
-    "squareRightArm": "Square",
-    "circleRightArm": "Circle",
-    "triangleRightArm": "Triangle"
+    "squareRightArm": "/monsterparts/square-rightArm.svg",
+    "circleRightArm": "/monsterparts/circle-rightArm.svg",
+    "triangleRightArm": "/monsterparts/triangle-rightArm.svg"
   }],
   "legs": [{
-    "squareLegs": "Square",
-    "circleLegs": "Circle",
-    "triangleLegs": "Triangle"
+    "squareLegs": "/monsterparts/square-legs.svg",
+    "circleLegs": "/monsterparts/circle-legs.svg",
+    "triangleLegs": "/monsterparts/triangle-legs.svg"
   }]
 }
