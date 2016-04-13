@@ -1,5 +1,7 @@
 import Model from 'ember-data/model';
 
 export default Model.extend({
-  url: DS.attr()
+  squareLeftArm: DS.attr(),
+  circleLeftArm: DS.attr(),
+  triangleLeftArm: DS.attr()
 });
