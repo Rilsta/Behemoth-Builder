@@ -1,5 +1,5 @@
-{{monster-new}}
-
-{{#each model as |monster|}}
-  {{monster-tile monster=monster}}
-{{/each}}
+{{monster-new heads=model.heads
+              torsos=model.torsos
+              leftArms=model.leftArms
+              rightArms=model.rightArms
+              legs=model.legs}}

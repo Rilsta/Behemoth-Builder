@@ -9,33 +9,33 @@
     </div>
     <h3 class="secondary-header">Head</h3>
     <div class="button-container">
-      <button {{action 'addHeadShape' 'square'}}>Square</button>
-      <button {{action 'addHeadShape' 'circle'}}>Circle</button>
-      <button {{action 'addHeadShape' 'triangle'}}>Triangle</button>
+      {{#power-select options=heads onchange=(action "choosePart") as |head|}}
+        {{head.headSVG}}
+      {{/power-select}}
     </div>
     <h3 class="secondary-header">Torso</h3>
     <div class="button-container">
-      <button>Square</button>
-      <button>Circle</button>
-      <button>Triangle</button>
+      {{#power-select options=torsos onchange=(action "choosePart") as |torso|}}
+        {{torso.torsoSVG}}
+      {{/power-select}}
     </div>
     <h3 class="secondary-header">Left Arm</h3>
     <div class="button-container">
-      <button>Square</button>
-      <button>Circle</button>
-      <button>Triangle</button>
+      {{#power-select options=leftArms onchange=(action "choosePart") as |leftArm|}}
+        {{leftArm.leftArmSVG}}
+      {{/power-select}}
     </div>
     <h3 class="secondary-header">Right Arm</h3>
     <div class="button-container">
-      <button>Square</button>
-      <button>Circle</button>
-      <button>Triangle</button>
+      {{#power-select options=rightArms onchange=(action "choosePart") as |rightArm|}}
+        {{rightArm.rightArmSVG}}
+      {{/power-select}}
     </div>
     <h3 class="secondary-header">Legs</h3>
     <div class="button-container">
-      <button>Square</button>
-      <button>Circle</button>
-      <button>Triangle</button>
+      {{#power-select options=legs onchange=(action "choosePart") as |legs|}}
+        {{legs.legsSVG}}
+      {{/power-select}}
     </div>
   </div>
 

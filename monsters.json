@@ -8,28 +8,53 @@
     "legs": "legs-square"
   }],
   "heads": [{
-    "squareHead": "/monsterparts/square-head.svg",
-    "circleHead": "/monsterparts/circle-head.svg",
-    "triangleHead": "/monsterparts/triangle-head.svg"
+    "name": "Square",
+    "headSVG": "/monsterparts/square-head.svg"
+  }, {
+    "name": "Circle",
+    "headSVG": "/monsterparts/circle-head.svg"
+  }, {
+    "name": "Triangle",
+    "headSVG": "/monsterparts/triangle-head.svg"
   }],
   "torsos": [{
-    "squareTorso": "/monsterparts/square-torso.svg",
-    "circleTorso": "/monsterparts/circle-torso.svg",
-    "triangleTorso": "/monsterparts/triangle-torso.svg"
+    "name": "Square",
+    "torsoSVG": "/monsterparts/square-torso.svg"
+  }, {
+    "name": "Circle",
+    "torsoSVG": "/monsterparts/circle-torso.svg"
+  }, {
+    "name": "Triangle",
+    "torsoSVG": "/monsterparts/triangle-torso.svg"
   }],
   "leftArms": [{
-    "squareLeftArm": "/monsterparts/square-leftArm.svg",
-    "circleLeftArm": "/monsterparts/circle-leftArm.svg",
-    "triangleLeftArm": "/monsterparts/triangle-leftArm.svg"
+    "name": "Square",
+    "leftArmSVG": "/monsterparts/square-leftArm.svg"
+  }, {
+    "name": "Circle",
+    "leftArmSVG": "/monsterparts/circle-leftArm.svg"
+  }, {
+    "name": "Triangle",
+    "leftArmSVG": "/monsterparts/triangle-leftArm.svg"
   }],
   "rightArms": [{
-    "squareRightArm": "/monsterparts/square-rightArm.svg",
-    "circleRightArm": "/monsterparts/circle-rightArm.svg",
-    "triangleRightArm": "/monsterparts/triangle-rightArm.svg"
+    "name": "Square",
+    "rightArmSVG": "/monsterparts/square-rightArm.svg"
+  }, {
+    "name": "Circle",
+    "rightArmSVG": "/monsterparts/circle-rightArm.svg"
+  }, {
+    "name": "Triangle",
+    "rightArmSVG": "/monsterparts/triangle-rightArm.svg"
   }],
-  "legs": [{
-    "squareLegs": "/monsterparts/square-legs.svg",
-    "circleLegs": "/monsterparts/circle-legs.svg",
-    "triangleLegs": "/monsterparts/triangle-legs.svg"
+  "legs":[{
+    "name": "Square",
+    "legsSVG": "/monsterparts/square-legs.svg"
+  }, {
+    "name": "Circle",
+    "legsSVG": "/monsterparts/circle-legs.svg"
+  }, {
+    "name": "Triangle",
+    "legsSVG": "/monsterparts/triangle-legs.svg"
   }]
 }
