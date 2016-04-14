@@ -5,57 +5,85 @@
 
 .head{
   position: absolute;
-  top: 100px;
-  left: 625px;
-  fill: $valhalla;
+  top: 120px;
+  left: 623px;
   width: 150px;
-  // animation: bobbin2 1.5s ease-in-out infinite;
+  animation: bobbinHead 1.5s ease-in-out infinite;
 }
 .torso{
   position: absolute;
   top: 225px;
   left: 500px;
-  fill: $viridian;
   width: 400px;
-  // animation: bobbin 1.5s ease-in-out infinite;
+  animation: bobbinTorso 1.5s ease-in-out infinite;
 }
 .left-arm{
   position: absolute;
-  fill: $viridian;
+  top: 235px;
+  left: 750px;
   width: 250px;
-  // animation: bobbin 1.5s ease-in-out infinite;
+  animation: bobbinArms 1.5s ease-in-out infinite;
 }
 .right-arm{
   position: absolute;
-  fill: $viridian;
+  top: 235px;
+  left: 400px;
   width: 250px;
-  // animation: bobbin 1.5s ease-in-out infinite;
+  animation: bobbinArms 1.5s ease-in-out infinite;
 }
 .legs{
   position: absolute;
+  top: 530px;
+  left: 554px;
   width: 300px;
+  height: 300px;
+  animation: bobbinLegs 1.5s ease-in-out infinite;
 }
 
-@keyframes bobbin{
+@keyframes bobbinTorso{
   0%{
-    bottom: 10%;
+    top: 225px;
   }
   50%{
-    bottom: 11%;
+    top: 230px;
   }
   100%{
-    bottom:10%;
+    top:225px;
   }
 }
 
-@keyframes bobbin2{
+@keyframes bobbinHead{
   0%{
-    left: 48vw;
+    left: 623px;
   }
   50%{
-    left: 50vw;
+    left: 626px;
   }
   100%{
-    left: 48vw;
+    left: 623px;
+  }
+}
+
+@keyframes bobbinArms{
+  0%{
+    top: 235px;
+  }
+  75%{
+    top: 239px;;
+  }
+  100%{
+    top: 235px;;
+  }
+}
+
+@keyframes bobbinLegs{
+  0%{
+    top: 530px;
+  }
+  50%{
+    top: 535px;
+  }
+  100%{
+    top: 530px;
   }
 }
