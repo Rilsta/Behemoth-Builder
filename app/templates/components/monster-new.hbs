@@ -9,31 +9,31 @@
     </div>
     <h3 class="secondary-header">Head</h3>
     <div class="button-container">
-      {{#power-select options=heads selected=head.name onchange=(action (mut parentCo) value="headSVG") as |head|}}
+      {{#power-select options=heads selected=heads.name onchange=(action (mut heads.name)) as |head|}}
         {{head.name}}
       {{/power-select}}
     </div>
     <h3 class="secondary-header">Torso</h3>
     <div class="button-container">
-      {{#power-select options=torsos onchange=(action "choosePart") as |torso|}}
+      {{#power-select options=torsos selected=torsos.name onchange=(action (mut torsos.name)) as |torso|}}
         {{torso.name}}
       {{/power-select}}
     </div>
     <h3 class="secondary-header">Left Arm</h3>
     <div class="button-container">
-      {{#power-select options=leftArms onchange=(action "choosePart") as |leftArm|}}
+      {{#power-select options=leftArms selected=leftArms.name onchange=(action (mut leftArms.name)) as |leftArm|}}
         {{leftArm.name}}
       {{/power-select}}
     </div>
     <h3 class="secondary-header">Right Arm</h3>
     <div class="button-container">
-      {{#power-select options=rightArms onchange=(action "choosePart") as |rightArm|}}
+      {{#power-select options=rightArms selected=rightArms.name onchange=(action (mut rightArms.name)) as |rightArm|}}
         {{rightArm.name}}
       {{/power-select}}
     </div>
     <h3 class="secondary-header">Legs</h3>
     <div class="button-container">
-      {{#power-select options=legs onchange=(action "choosePart") as |legs|}}
+      {{#power-select options=legs selected=legs.name onchange=(action (mut legs.name)) as |legs|}}
         {{legs.name}}
       {{/power-select}}
     </div>
