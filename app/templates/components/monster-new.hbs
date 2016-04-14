@@ -9,7 +9,7 @@
     </div>
     <h3 class="secondary-header">Head</h3>
     <div class="button-container">
-      {{#power-select options=heads onchange=(action "choosePart") as |head|}}
+      {{#power-select options=heads selected=head.name onchange=(action (mut parentCo) value="headSVG") as |head|}}
         {{head.name}}
       {{/power-select}}
     </div>
