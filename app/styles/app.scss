@@ -1,12 +1,12 @@
 @charset 'UTF-8';
 @import "bourbon/bourbon";
-@import "ember-power-select";
 
 // Configs
 
 @import
   'utils/variables',
-  'utils/mixins';
+  'utils/mixins',
+  "ember-power-select";
 
 // Vendors
 
