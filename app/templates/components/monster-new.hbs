@@ -10,31 +10,31 @@
     <h3 class="secondary-header">Head</h3>
     <div class="button-container">
       {{#power-select options=heads onchange=(action "choosePart") as |head|}}
-        {{head.headSVG}}
+        {{head.name}}
       {{/power-select}}
     </div>
     <h3 class="secondary-header">Torso</h3>
     <div class="button-container">
       {{#power-select options=torsos onchange=(action "choosePart") as |torso|}}
-        {{torso.torsoSVG}}
+        {{torso.name}}
       {{/power-select}}
     </div>
     <h3 class="secondary-header">Left Arm</h3>
     <div class="button-container">
       {{#power-select options=leftArms onchange=(action "choosePart") as |leftArm|}}
-        {{leftArm.leftArmSVG}}
+        {{leftArm.name}}
       {{/power-select}}
     </div>
     <h3 class="secondary-header">Right Arm</h3>
     <div class="button-container">
       {{#power-select options=rightArms onchange=(action "choosePart") as |rightArm|}}
-        {{rightArm.rightArmSVG}}
+        {{rightArm.name}}
       {{/power-select}}
     </div>
     <h3 class="secondary-header">Legs</h3>
     <div class="button-container">
       {{#power-select options=legs onchange=(action "choosePart") as |legs|}}
-        {{legs.legsSVG}}
+        {{legs.name}}
       {{/power-select}}
     </div>
   </div>
