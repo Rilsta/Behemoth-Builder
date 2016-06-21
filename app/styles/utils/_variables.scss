@@ -2,7 +2,7 @@
 
 $white: #f4f4f4;
 $grey: #707070;
-$black: #0c0c0c;
+$black: #212121;
 $light-grey: #c9c9c9;
 $valhalla: #2c1758;
 $viridian: #47988a;
@@ -37,5 +37,5 @@ $line-h: 20px;
 $letter-spacing: 1px;
 
 //Ember Power Select
-$ember-power-select-text-color: white;
+$ember-power-select-text-color: $white;
 $ember-power-select-background-color: #212121 !default;
