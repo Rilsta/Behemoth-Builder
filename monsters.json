@@ -1,12 +1,4 @@
-{ "monsters": [{
-    "name": "VORTOS",
-    "complexion": "purple",
-    "head": "head-square",
-    "torso": "torso-square",
-    "leftArm": "leftArm-square",
-    "rightArm": "rightArm-square",
-    "legs": "legs-square"
-  }],
+{ 
   "heads": [{
     "name": "Square",
     "headSVG": "/monsterparts/square-head.svg"
