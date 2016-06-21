@@ -1,89 +1,89 @@
-.monster-container{
-  position: relative;
-}
-
-.head{
-  position: absolute;
-  margin: auto;
-  top: 120px;
-  left: 623px;
-  width: 150px;
-  animation: bobbinHead 1.5s ease-in-out infinite;
-}
-.torso{
-  position: absolute;
-  top: 225px;
-  left: 500px;
-  width: 400px;
-  animation: bobbinTorso 1.5s ease-in-out infinite;
-}
-.left-arm{
-  position: absolute;
-  top: 235px;
-  left: 750px;
-  width: 250px;
-  animation: bobbinArms 1.5s ease-in-out infinite;
-}
-.right-arm{
-  position: absolute;
-  top: 235px;
-  left: 400px;
-  width: 250px;
-  animation: bobbinArms 1.5s ease-in-out infinite;
-}
-.legs{
-  position: absolute;
-  top: 530px;
-  left: 554px;
-  width: 300px;
-  height: 300px;
-  animation: bobbinLegs 1.5s ease-in-out infinite;
-}
-
-@keyframes bobbinTorso{
-  0%{
-    top: 225px;
-  }
-  50%{
-    top: 230px;
-  }
-  100%{
-    top:225px;
-  }
-}
-
-@keyframes bobbinHead{
-  0%{
-    left: 623px;
-  }
-  50%{
-    left: 626px;
-  }
-  100%{
-    left: 623px;
-  }
-}
-
-@keyframes bobbinArms{
-  0%{
-    top: 235px;
-  }
-  75%{
-    top: 239px;;
-  }
-  100%{
-    top: 235px;;
-  }
-}
-
-@keyframes bobbinLegs{
-  0%{
-    top: 530px;
-  }
-  50%{
-    top: 535px;
-  }
-  100%{
-    top: 530px;
-  }
-}
+// .monster-container{
+//   position: relative;
+// }
+//
+// .head{
+//   position: absolute;
+//   margin: auto;
+//   top: 120px;
+//   left: 623px;
+//   width: 150px;
+//   animation: bobbinHead 1.5s ease-in-out infinite;
+// }
+// .torso{
+//   position: absolute;
+//   top: 225px;
+//   left: 500px;
+//   width: 400px;
+//   animation: bobbinTorso 1.5s ease-in-out infinite;
+// }
+// .left-arm{
+//   position: absolute;
+//   top: 235px;
+//   left: 750px;
+//   width: 250px;
+//   animation: bobbinArms 1.5s ease-in-out infinite;
+// }
+// .right-arm{
+//   position: absolute;
+//   top: 235px;
+//   left: 400px;
+//   width: 250px;
+//   animation: bobbinArms 1.5s ease-in-out infinite;
+// }
+// .legs{
+//   position: absolute;
+//   top: 530px;
+//   left: 554px;
+//   width: 300px;
+//   height: 300px;
+//   animation: bobbinLegs 1.5s ease-in-out infinite;
+// }
+//
+// @keyframes bobbinTorso{
+//   0%{
+//     top: 225px;
+//   }
+//   50%{
+//     top: 230px;
+//   }
+//   100%{
+//     top:225px;
+//   }
+// }
+//
+// @keyframes bobbinHead{
+//   0%{
+//     left: 623px;
+//   }
+//   50%{
+//     left: 626px;
+//   }
+//   100%{
+//     left: 623px;
+//   }
+// }
+//
+// @keyframes bobbinArms{
+//   0%{
+//     top: 235px;
+//   }
+//   75%{
+//     top: 239px;;
+//   }
+//   100%{
+//     top: 235px;;
+//   }
+// }
+//
+// @keyframes bobbinLegs{
+//   0%{
+//     top: 530px;
+//   }
+//   50%{
+//     top: 535px;
+//   }
+//   100%{
+//     top: 530px;
+//   }
+// }

@@ -1,12 +1,19 @@
+.title-header{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .main-header{
+  font-family: 'Raleway', sans-serif;
   font-size: $main-header;
   letter-spacing: $letter-spacing;
 }
 
 .secondary-header{
+  font-family: 'Raleway', sans-serif;
   font-size: $secondary-header;
   letter-spacing: $letter-spacing;
-  margin: 5px;
+  width: 200px;
 }
 
 .text-header{
