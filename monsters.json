@@ -1,52 +1,62 @@
-{ 
+{
   "heads": [{
-    "name": "Square",
-    "headSVG": "/monsterparts/square-head.svg"
+    "name": "Sturdy",
+    "headSVG": "/parts/sturdy/sturdyHead.svg"
   }, {
-    "name": "Circle",
-    "headSVG": "/monsterparts/circle-head.svg"
+    "name": "Round",
+    "headSVG": "/parts/round/roundHead.svg"
   }, {
-    "name": "Triangle",
-    "headSVG": "/monsterparts/triangle-head.svg"
+    "name": "Sharp",
+    "headSVG": "/parts/sharp/sharpHead.svg"
   }],
   "torsos": [{
-    "name": "Square",
-    "torsoSVG": "/monsterparts/square-torso.svg"
+    "name": "Sturdy",
+    "torsoSVG": "/parts/sturdy/sturdyTorso.svg"
   }, {
-    "name": "Circle",
-    "torsoSVG": "/monsterparts/circle-torso.svg"
+    "name": "Round",
+    "torsoSVG": "/parts/round/roundTorso.svg"
   }, {
-    "name": "Triangle",
-    "torsoSVG": "/monsterparts/triangle-torso.svg"
+    "name": "Sharp",
+    "torsoSVG": "/parts/sharp/sharpTorso.svg"
   }],
   "leftArms": [{
-    "name": "Square",
-    "leftArmSVG": "/monsterparts/square-leftArm.svg"
+    "name": "Sturdy",
+    "leftArmSVG": "/parts/sturdy/sturdyLeftArm.svg"
   }, {
-    "name": "Circle",
-    "leftArmSVG": "/monsterparts/circle-leftArm.svg"
+    "name": "Round",
+    "leftArmSVG": "/parts/round/roundLeftArm.svg"
   }, {
-    "name": "Triangle",
-    "leftArmSVG": "/monsterparts/triangle-leftArm.svg"
+    "name": "Sharp",
+    "leftArmSVG": "/parts/sharp/sharpLeftArm.svg"
   }],
   "rightArms": [{
-    "name": "Square",
-    "rightArmSVG": "/monsterparts/square-rightArm.svg"
+    "name": "Sturdy",
+    "rightArmSVG": "/parts/sturdy/sturdyRightArm.svg"
   }, {
-    "name": "Circle",
-    "rightArmSVG": "/monsterparts/circle-rightArm.svg"
+    "name": "Round",
+    "rightArmSVG": "/parts/round/roundRightArm.svg"
   }, {
-    "name": "Triangle",
-    "rightArmSVG": "/monsterparts/triangle-rightArm.svg"
+    "name": "Sharp",
+    "rightArmSVG": "/parts/sharp/sharpRightArm.svg"
   }],
-  "legs":[{
-    "name": "Square",
-    "legsSVG": "/monsterparts/square-legs.svg"
+  "rightLegs":[{
+    "name": "Sturdy",
+    "rightLegSVG": "/parts/sturdy/sturdyRightLeg.svg"
   }, {
-    "name": "Circle",
-    "legsSVG": "/monsterparts/circle-legs.svg"
+    "name": "Round",
+    "rightLegSVG": "/parts/round/roundRightLeg.svg"
   }, {
-    "name": "Triangle",
-    "legsSVG": "/monsterparts/triangle-legs.svg"
+    "name": "Sharp",
+    "rightLegSVG": "/parts/sharp/sharpRightLeg.svg"
+  }],
+  "leftLegs":[{
+    "name": "Sturdy",
+    "leftLegSVG": "/parts/sturdy/sturdyLeftLeg.svg"
+  }, {
+    "name": "Round",
+    "leftLegSVG": "/parts/round/roundLeftLeg.svg"
+  }, {
+    "name": "Sharp",
+    "leftLegSVG": "/parts/sharp/sharpLeftLeg.svg"
   }]
 }
