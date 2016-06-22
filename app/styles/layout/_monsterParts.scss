@@ -3,24 +3,30 @@
   animation: bobbinHead 1.5s ease-in-out infinite;
 }
 .torso{
-  width: 200px;
+  width: 150px;
   animation: bobbinTorso 1.5s ease-in-out infinite;
 }
 .left-arm{
   position: absolute;
-  width: 160px;
-  right: -25px;
+  width: 120px;
   animation: bobbinArms 1.5s ease-in-out infinite;
 }
 .right-arm{
   position: absolute;
-  width: 160px;
-  left: -25px;
+  width: 150px;
   animation: bobbinArms 1.5s ease-in-out infinite;
 }
-.legs{
+.left-leg{
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 200px;
-  animation: bobbinLegs 1.5s ease-in-out infinite;
+}
+.right-leg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
 }
 
 @keyframes bobbinTorso{
