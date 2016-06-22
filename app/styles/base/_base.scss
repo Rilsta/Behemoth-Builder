@@ -17,12 +17,3 @@ a{
     color:$light-grey;
   }
 }
-
-button{
-  border: none;
-  color: $white;
-  padding: 10px;
-  &:focus{
-    outline: none;
-  }
-}

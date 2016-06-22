@@ -2,6 +2,33 @@
 <div class="top-container">
 
   <form class="monster-container">
+    <div class="parts-container">
+      <h3 class="name-header">{{name}}</h3>
+      <img id='head' class="head" src={{heads.name.headSVG}} />
+      <div class="hidden">
+        {{input value=heads.name.headSVG id="head"}}
+      </div>
+      <img class="left-arm" src={{leftArms.name.leftArmSVG}} />
+      <div class="hidden">
+        {{input value=leftArms.name.leftArmSVG id="leftArm"}}
+      </div>
+      <img class="right-arm" src={{rightArms.name.rightArmSVG}} />
+      <div class="hidden">
+        {{input value=rightArms.name.rightArmSVG id="rightArm"}}
+      </div>
+      <img class="torso" src={{torsos.name.torsoSVG}} />
+      <div class="hidden">
+        {{input value=torsos.name.torsoSVG id="torso"}}
+      </div>
+      <img class="right-leg" src={{rightLegs.name.rightLegSVG}} />
+      <div class="hidden">
+        {{input value=rightLegs.name.rightLegsSVG id="rightLeg"}}
+      </div>
+      <img class="left-leg" src={{leftLegs.name.leftLegSVG}} />
+      <div class="hidden">
+        {{input value=leftLegs.name.leftLegsSVG id="leftLeg"}}
+      </div>
+    </div>
     <h3 class="secondary-header">Name</h3>
     <div class="name-container">
       {{input value=name id="name"}}
@@ -69,34 +96,6 @@
     </div>
 
       <button class="main-button" {{action 'save'}}>Save</button>
-    <div class="parts-container">
-
-    <img id='head' class="head" src={{heads.name.headSVG}} />
-    <div class="hidden">
-      {{input value=heads.name.headSVG id="head"}}
-    </div>
-    <img class="left-arm" src={{leftArms.name.leftArmSVG}} />
-    <div class="hidden">
-      {{input value=leftArms.name.leftArmSVG id="leftArm"}}
-    </div>
-    <img class="right-arm" src={{rightArms.name.rightArmSVG}} />
-    <div class="hidden">
-      {{input value=rightArms.name.rightArmSVG id="rightArm"}}
-    </div>
-    <img class="torso" src={{torsos.name.torsoSVG}} />
-    <div class="hidden">
-      {{input value=torsos.name.torsoSVG id="torso"}}
-    </div>
-    <img class="right-leg" src={{rightLegs.name.rightLegSVG}} />
-    <div class="hidden">
-      {{input value=rightLegs.name.rightLegsSVG id="rightLeg"}}
-    </div>
-    <img class="left-leg" src={{leftLegs.name.leftLegSVG}} />
-    <div class="hidden">
-      {{input value=leftLegs.name.leftLegsSVG id="leftLeg"}}
-    </div>
-
-    </div>
 
   </form>
 

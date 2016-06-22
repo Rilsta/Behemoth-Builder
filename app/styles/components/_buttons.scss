@@ -1,13 +1,17 @@
 .main-button{
   width: 350px;
   height:50px;
-
   color: #696969;
   margin-bottom: 20px;
   font-size: $secondary-header;
   font-family: 'Raleway', sans-serif;
   transition: all 250ms;
+  border: none;
+  padding: 10px;
   &:hover{
     background: #EBEBEB;
+  }
+  &:focus{
+    outline: none;
   }
 }

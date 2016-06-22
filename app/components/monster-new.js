@@ -16,6 +16,7 @@ export default Ember.Component.extend({
         rightLeg: this.get('rightLegs.name.rightLegSVG'),
         leftLeg: this.get('leftLegs.name.leftLegSVG'),
       };
+      this.set('isTraitShowing', false);
       this.sendAction('save', params);
     },
   }
