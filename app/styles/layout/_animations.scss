@@ -1,0 +1,72 @@
+@keyframes bobbinHead{
+  0%{
+    left: 150px;
+  }
+  50%{
+    left: 153px;
+  }
+  100%{
+    left: 150px;
+  }
+}
+
+@keyframes bobbinTorso{
+  0%{
+    top: 90px;
+  }
+  50%{
+    top: 95px;
+  }
+  100%{
+    top:90px;
+  }
+}
+
+
+@keyframes bobbinLeftArm{
+  0%{
+    top: 140px;
+  }
+  75%{
+    top: 144px;;
+  }
+  100%{
+    top: 140px;;
+  }
+}
+
+@keyframes bobbinRightArm{
+  0%{
+    top: 55px;
+  }
+  75%{
+    top: 59px;;
+  }
+  100%{
+    top: 55px;;
+  }
+}
+
+@keyframes bobbinLeftLeg{
+  0%{
+    top: 200px;
+  }
+  75%{
+    top: 202px;;
+  }
+  100%{
+    top: 200px;;
+  }
+}
+
+@keyframes bobbinRightLeg{
+  0%{
+    top: 190px;
+  }
+  75%{
+    top: 192px;;
+  }
+  100%{
+    top: 190px;;
+  }
+}

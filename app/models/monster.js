@@ -6,5 +6,6 @@ export default DS.Model.extend({
   torso: DS.attr(),
   leftArm: DS.attr(),
   rightArm: DS.attr(),
-  legs: DS.attr()
+  leftLeg: DS.attr(),
+  rightLeg: DS.attr()
 });

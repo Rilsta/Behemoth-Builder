@@ -11,4 +11,11 @@ export default Ember.Route.extend({
       rightLegs: this.store.findAll('rightLeg'),
     });
   },
+  actions: {
+    save(params) {
+      var newMonster = this.store.createRecord('monster', params);
+      newMonster.save();
+      this.transitionTo('index');
+    }
+  }
 });
