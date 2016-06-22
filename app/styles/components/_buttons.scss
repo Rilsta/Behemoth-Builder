@@ -6,4 +6,8 @@
   margin-bottom: 20px;
   font-size: $secondary-header;
   font-family: 'Raleway', sans-serif;
+  transition: all 250ms;
+  &:hover{
+    background: #EBEBEB;
+  }
 }
