@@ -4,7 +4,7 @@
   left: 150px;
   width: 100px;
   z-index: 3;
-  // animation: bobbinHead 1.5s ease-in-out infinite;
+  animation: bobbinHead 1.5s ease-in-out infinite;
 }
 .torso{
   position: absolute;
@@ -12,7 +12,7 @@
   top: 90px;
   left: 80px;
   z-index: 2;
-  // animation: bobbinTorso 1.5s ease-in-out infinite;
+  animation: bobbinTorso 1.5s ease-in-out infinite;
 }
 .left-arm{
   position: absolute;
@@ -20,7 +20,7 @@
   right: 50px;
   width: 120px;
   z-index: 1;
-  animation: bobbinArms 1.5s ease-in-out infinite;
+  animation: bobbinLeftArm 1.5s ease-in-out infinite;
 }
 .right-arm{
   position: absolute;
@@ -28,7 +28,7 @@
   left: 30px;
   width: 150px;
   z-index: 4;
-  animation: bobbinArms 1.5s ease-in-out infinite;
+  animation: bobbinRightArm 1.5s ease-in-out infinite;
 }
 .left-leg{
   position: absolute;
@@ -36,6 +36,7 @@
   right: 150px;
   width: 60px;
   z-index: 1;
+  // animation: bobbinLeftLeg 1.5s ease-in-out infinite;
 }
 .right-leg{
   position: absolute;
@@ -43,52 +44,78 @@
   left: 75px;
   width: 80px;
   z-index: 4;
-}
-
-@keyframes bobbinTorso{
-  0%{
-    top: 225px;
-  }
-  50%{
-    top: 230px;
-  }
-  100%{
-    top:225px;
-  }
+  // animation: bobbinRightLeg 1.5s ease-in-out infinite;
 }
 
 @keyframes bobbinHead{
   0%{
-    left: 623px;
+    left: 150px;
   }
   50%{
-    left: 626px;
+    left: 153px;
   }
   100%{
-    left: 623px;
+    left: 150px;
   }
 }
 
-// @keyframes bobbinArms{
-//   0%{
-//     top: 235px;
-//   }
-//   75%{
-//     top: 239px;;
-//   }
-//   100%{
-//     top: 235px;;
-//   }
-// }
-
-@keyframes bobbinLegs{
+@keyframes bobbinTorso{
   0%{
-    top: 530px;
+    top: 90px;
   }
   50%{
-    top: 535px;
+    top: 95px;
   }
   100%{
-    top: 530px;
+    top:90px;
+  }
+}
+
+
+@keyframes bobbinLeftArm{
+  0%{
+    top: 140px;
+  }
+  75%{
+    top: 144px;;
+  }
+  100%{
+    top: 140px;;
+  }
+}
+
+@keyframes bobbinRightArm{
+  0%{
+    top: 55px;
+  }
+  75%{
+    top: 59px;;
+  }
+  100%{
+    top: 55px;;
+  }
+}
+
+@keyframes bobbinLeftLeg{
+  0%{
+    top: 235px;
+  }
+  75%{
+    top: 239px;;
+  }
+  100%{
+    top: 235px;;
+  }
+}
+
+@keyframes bobbinRightLeg{
+  0%{
+    top: 235px;
+  }
+  75%{
+    top: 239px;;
+  }
+  100%{
+    top: 235px;;
   }
 }
