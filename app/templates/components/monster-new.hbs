@@ -29,69 +29,81 @@
         {{input value=leftLegs.name.leftLegsSVG id="leftLeg"}}
       </div>
     </div>
-    <h3 class="secondary-header">Name</h3>
+
+
     <div class="name-container">
-      {{input value=name id="name"}}
+      {{input value=name id="name" placeholder="Name"}}
     </div>
-    <div class="trait-box">
-      <div class="secondary-header">Head</div>
-      <div class="button-container">
-        {{#power-select
-          searchEnabled=false
-          options=heads
-          selected=heads.name
-          onchange=(action (mut heads.name)) as |head|}}
-          {{head.name}}
-        {{/power-select}}
+    <div class="trait-container">
+      <div class="trait-box-one">
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Head"
+            options=heads
+            selected=heads.name
+            onchange=(action (mut heads.name)) as |head|}}
+            {{head.name}}
+          {{/power-select}}
+        </div>
+
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Right Arm"
+            options=rightArms
+            selected=rightArms.name onchange=(action (mut rightArms.name)) as |rightArm|}}
+            {{rightArm.name}}
+          {{/power-select}}
+        </div>
+
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Right Leg"
+            options=rightLegs
+            selected=rightLegs.name
+            onchange=(action (mut rightLegs.name)) as |rightLeg|}}
+            {{rightLeg.name}}
+          {{/power-select}}
+        </div>
+
       </div>
-      <h3 class="secondary-header">Torso</h3>
-      <div class="button-container">
-        {{#power-select
-          searchEnabled=false
-          options=torsos
-          selected=torsos.name
-          onchange=(action (mut torsos.name)) as |torso|}}
-          {{torso.name}}
-        {{/power-select}}
-      </div>
-      <h3 class="secondary-header">Left Arm</h3>
-      <div class="button-container">
-        {{#power-select
-          searchEnabled=false
-          options=leftArms
-          selected=leftArms.name
-          onchange=(action (mut leftArms.name)) as |leftArm|}}
-          {{leftArm.name}}
-        {{/power-select}}
-      </div>
-      <h3 class="secondary-header">Right Arm</h3>
-      <div class="button-container">
-        {{#power-select
-          searchEnabled=false
-          options=rightArms
-          selected=rightArms.name onchange=(action (mut rightArms.name)) as |rightArm|}}
-          {{rightArm.name}}
-        {{/power-select}}
-      </div>
-      <h3 class="secondary-header">Right Leg</h3>
-      <div class="button-container">
-        {{#power-select
-          searchEnabled=false
-          options=rightLegs
-          selected=rightLegs.name
-          onchange=(action (mut rightLegs.name)) as |rightLeg|}}
-          {{rightLeg.name}}
-        {{/power-select}}
-      </div>
-      <h3 class="secondary-header">Left Leg</h3>
-      <div class="button-container">
-        {{#power-select
-          searchEnabled=false
-          options=leftLegs
-          selected=leftLegs.name
-          onchange=(action (mut leftLegs.name)) as |leftLeg|}}
-          {{leftLeg.name}}
-        {{/power-select}}
+      <div class="trait-box-two">
+
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Torso"
+            options=torsos
+            selected=torsos.name
+            onchange=(action (mut torsos.name)) as |torso|}}
+            {{torso.name}}
+          {{/power-select}}
+        </div>
+
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Left Arm"
+            options=leftArms
+            selected=leftArms.name
+            onchange=(action (mut leftArms.name)) as |leftArm|}}
+            {{leftArm.name}}
+          {{/power-select}}
+        </div>
+
+
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Left Leg"
+            options=leftLegs
+            selected=leftLegs.name
+            onchange=(action (mut leftLegs.name)) as |leftLeg|}}
+            {{leftLeg.name}}
+          {{/power-select}}
+        </div>
       </div>
     </div>
 
