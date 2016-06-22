@@ -1,32 +1,48 @@
 .head{
+  position: absolute;
+  top: 70px;
+  left: 150px;
   width: 100px;
-  animation: bobbinHead 1.5s ease-in-out infinite;
+  z-index: 3;
+  // animation: bobbinHead 1.5s ease-in-out infinite;
 }
 .torso{
+  position: absolute;
   width: 150px;
-  animation: bobbinTorso 1.5s ease-in-out infinite;
+  top: 90px;
+  left: 80px;
+  z-index: 2;
+  // animation: bobbinTorso 1.5s ease-in-out infinite;
 }
 .left-arm{
   position: absolute;
+  top: 140px;
+  right: 50px;
   width: 120px;
+  z-index: 1;
   animation: bobbinArms 1.5s ease-in-out infinite;
 }
 .right-arm{
   position: absolute;
+  top: 55px;
+  left: 30px;
   width: 150px;
+  z-index: 4;
   animation: bobbinArms 1.5s ease-in-out infinite;
 }
 .left-leg{
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
+  top: 200px;
+  right: 150px;
+  width: 60px;
+  z-index: 1;
 }
 .right-leg{
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 200px;
+  top: 190px;
+  left: 75px;
+  width: 80px;
+  z-index: 4;
 }
 
 @keyframes bobbinTorso{
