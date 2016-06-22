@@ -8,7 +8,7 @@
   <form class="monster-container">
     <h3 class="secondary-header">Name</h3>
     <div class="name-container">
-      {{input value=name id="name" placeholder="Name Your Behemoth"}}
+      {{input value=name id="name"}}
     </div>
     <div class="trait-box">
       <div class="secondary-header">Head</div>
@@ -50,14 +50,24 @@
           {{rightArm.name}}
         {{/power-select}}
       </div>
-      <h3 class="secondary-header">Legs</h3>
+      <h3 class="secondary-header">Right Leg</h3>
       <div class="button-container">
         {{#power-select
           searchEnabled=false
-          options=legs
-          selected=legs.name
-          onchange=(action (mut legs.name)) as |legs|}}
-          {{legs.name}}
+          options=rightLegs
+          selected=rightLegs.name
+          onchange=(action (mut rightLegs.name)) as |rightLeg|}}
+          {{rightLeg.name}}
+        {{/power-select}}
+      </div>
+      <h3 class="secondary-header">Left Leg</h3>
+      <div class="button-container">
+        {{#power-select
+          searchEnabled=false
+          options=leftLegs
+          selected=leftLegs.name
+          onchange=(action (mut leftLegs.name)) as |leftLeg|}}
+          {{leftLeg.name}}
         {{/power-select}}
       </div>
     </div>
@@ -68,7 +78,6 @@
     <div class="hidden">
       {{input value=heads.name.headSVG id="head"}}
     </div>
-
     <img class="left-arm" src={{leftArms.name.leftArmSVG}} />
     <div class="hidden">
       {{input value=leftArms.name.leftArmSVG id="leftArm"}}
@@ -81,9 +90,13 @@
     <div class="hidden">
       {{input value=torsos.name.torsoSVG id="torso"}}
     </div>
-    <img class="legs" src={{legs.name.legsSVG}} />
+    <img class="right-leg" src={{rightLegs.name.rightLegsSVG}} />
     <div class="hidden">
-      {{input value=legs.name.legsSVG id="legs"}}
+      {{input value=rightLegs.name.rightLegsSVG id="rightLeg"}}
+    </div>
+    <img class="left-leg" src={{leftLegs.name.leftLegsSVG}} />
+    <div class="hidden">
+      {{input value=leftLegs.name.leftLegsSVG id="leftLeg"}}
     </div>
 
   </form>
