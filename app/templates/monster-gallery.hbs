@@ -1,10 +1,11 @@
 <div class="title-header">
   <h1 class="main-header">BEHEMOTH</h1>
   <h1 class="text-header">Gallery</h1>
+  <hr>
   {{#link-to 'index'}}Home{{/link-to}}
 </div>
 <ul>
   {{#each model as |monster|}}
-    {{monster-tile monster=monster}}
+    {{monster-tile monster=monster destroyMonster="destroyMonster"}}
   {{/each}}
 </ul>

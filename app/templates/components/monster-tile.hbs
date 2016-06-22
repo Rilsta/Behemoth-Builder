@@ -1,6 +1,6 @@
 <li>
-  <div class="parts-container half">
-    <h3 class="secondary-header">{{monster.name}}</h3>
+  <div class="parts-container">
+    <h3 class="name-header">{{monster.name}}</h3>
     <img class="head" src="{{monster.head}}" alt="" />
     <img class="torso" src="{{monster.torso}}" alt="" />
     <img class="left-arm" src="{{monster.leftArm}}" alt="" />
@@ -8,4 +8,5 @@
     <img class="left-leg" src="{{monster.leftLeg}}" alt="" />
     <img class="right-leg" src="{{monster.rightLeg}}" alt="" />
   </div>
+  <button class="main-button" {{action 'delete' monster}}>Delete</button>
 </li>
