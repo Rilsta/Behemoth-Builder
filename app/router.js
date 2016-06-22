@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('monster');
+  this.route('monster-gallery');
 });
 
 export default Router;

@@ -1,0 +1,9 @@
+<div class="title-header">
+  <h1 class="main-header">Gallery</h1>
+  {{#link-to 'index'}}Home{{/link-to}}
+</div>
+<ul>
+  {{#each model as |monster|}}
+    {{monster-tile monster=monster}}
+  {{/each}}
+</ul>
