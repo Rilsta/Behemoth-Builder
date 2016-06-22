@@ -13,7 +13,8 @@ export default Ember.Component.extend({
         torso: this.get('torsos.name.torsoSVG'),
         rightArm: this.get('rightArms.name.rightArmSVG'),
         leftArm: this.get('leftArms.name.leftArmSVG'),
-        legs: this.get('legs.name.legsSVG'),
+        rightLeg: this.get('rightLegs.name.rightLegSVG'),
+        leftLeg: this.get('leftLegs.name.leftLegSVG'),
       };
     },
   }

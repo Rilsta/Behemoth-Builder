@@ -7,8 +7,8 @@ export default Ember.Route.extend({
       torsos: this.store.findAll('torso'),
       leftArms: this.store.findAll('leftArm'),
       rightArms: this.store.findAll('rightArm'),
-      leftLegs: this.store.findAll('leftArm'),
-      rightLegs: this.store.findAll('rightArm'),
+      leftLegs: this.store.findAll('leftLeg'),
+      rightLegs: this.store.findAll('rightLeg'),
     });
   },
 });
