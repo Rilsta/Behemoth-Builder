@@ -12,9 +12,7 @@
   display: flex;
   flex-flow: column wrap;
   width: 350px;
-  padding: 25px;
   background-color: #ebebeb;
-  margin: 10px;
   .button-container{
     width: 350px;
     margin: 5px;
@@ -48,6 +46,7 @@
   width: 350px;
   height: 350px;
   background: #EBEBEB;
+  border: 1px solid black;
 }
 
 .hidden{
