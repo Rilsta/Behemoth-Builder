@@ -1,7 +1,7 @@
 {{#liquid-if isTraitShowing }}
 <div class="top-container">
 
-  <form class="monster-container">
+  <div class="monster-container">
     <div class="parts-container">
       <h3 class="name-header">{{name}}</h3>
       <img id='head' class="head" src={{heads.name.headSVG}} />
@@ -109,7 +109,7 @@
 
       <button class="main-button" {{action 'save'}}>Save</button>
 
-  </form>
+  </div>
 
 </div>
 {{else}}

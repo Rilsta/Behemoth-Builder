@@ -67,18 +67,15 @@
 }
 
 .trait-container{
-  border: 1px solid red;
   display: flex;
   flex-flow: row;
   .trait-box-one{
-    border: 1px solid blue;
     display: flex;
     flex-flow: row wrap;
     width: 150px;
     margin: 10px 0;
   }
   .trait-box-two{
-    border: 1px solid purple;
     display: flex;
     flex-flow: row wrap;
     width: 150px;
