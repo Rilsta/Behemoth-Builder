@@ -14,6 +14,7 @@ a{
   text-decoration: none;
   color: $grey;
   transition: all 250ms;
+  margin: 20px;
   &:hover{
     color:$light-grey;
   }
@@ -21,6 +22,7 @@ a{
 
 p{
   font-size: 0.8em;
+  margin: 5px;
 }
 
 form{
