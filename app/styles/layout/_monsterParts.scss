@@ -4,7 +4,7 @@
   left: 150px;
   width: 100px;
   z-index: 3;
-  animation: bobbinHead 1.5s ease-in-out infinite;
+  animation: bobbinHead 2s ease-in-out infinite;
 }
 .torso{
   position: absolute;
@@ -12,7 +12,7 @@
   top: 90px;
   left: 80px;
   z-index: 2;
-  animation: bobbinTorso 1.5s ease-in-out infinite;
+  animation: bobbinTorso 2s ease-in-out infinite;
 }
 .left-arm{
   position: absolute;
@@ -20,7 +20,7 @@
   right: 50px;
   width: 120px;
   z-index: 1;
-  animation: bobbinLeftArm 1.5s ease-in-out infinite;
+  animation: bobbinLeftArm 2s ease-in-out infinite;
 }
 .right-arm{
   position: absolute;
@@ -28,7 +28,7 @@
   left: 30px;
   width: 150px;
   z-index: 4;
-  animation: bobbinRightArm 1.5s ease-in-out infinite;
+  animation: bobbinRightArm 2s ease-in-out infinite;
 }
 .left-leg{
   position: absolute;
@@ -36,7 +36,7 @@
   right: 150px;
   width: 60px;
   z-index: 1;
-  animation: bobbinLeftLeg 1.5s ease-in-out infinite;
+  // animation: bobbinLeftLeg 2s ease-in-out infinite;
 }
 .right-leg{
   position: absolute;
@@ -44,5 +44,16 @@
   left: 75px;
   width: 80px;
   z-index: 4;
-  animation: bobbinRightLeg 1.5s ease-in-out infinite;
+  // animation: bobbinRightLeg 2s ease-in-out infinite;
+}
+
+.shadow{
+  position: absolute;
+  top: 270px;
+  left: 30px;
+  height: 55px;
+  width: 250px;
+  background-color: $light-grey;
+  z-index: 0;
+  border-radius: 50%;
 }
