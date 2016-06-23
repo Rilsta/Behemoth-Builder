@@ -1,6 +1,7 @@
 # Behemoth Builder
 
 Behemoth Builder is an independent project using Ember.js and Sass to make a fun little monster creator game. Users will be able to make their own combinations of monster parts and store them in a gallery.
+* [View Application](http://still-caverns-94537.herokuapp.com/)
 
 ## Prerequisites
 
