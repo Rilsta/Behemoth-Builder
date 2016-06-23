@@ -15,7 +15,7 @@ export default Ember.Route.extend({
     save(params) {
       var newMonster = this.store.createRecord('monster', params);
       newMonster.save();
-      this.transitionTo('index');
+      this.transitionTo('monster-gallery');
     }
   }
 });
