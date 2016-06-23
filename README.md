@@ -1,10 +1,10 @@
-# Monster Creator
+# Behemoth Builder
 
-Monster Creator is an independent project using Ember.js and Sass to make a fun little monster creator game. Users will be able to make their own combinations of monster parts and store them in a gallery.
+Behemoth Builder is an independent project using Ember.js and Sass to make a fun little monster creator game. Users will be able to make their own combinations of monster parts and store them in a gallery.
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+You will need the following properly installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
@@ -14,7 +14,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone https://github.com/Rilsta/Monster-Creator.git` this repository
+* `git clone https://github.com/Rilsta/Behemoth-Builder.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -22,11 +22,7 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
+* Visit the app at [http://localhost:4200](http://localhost:4200).
 
 ### Running Tests
 
@@ -40,7 +36,13 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+Deployed using Heroku:
+* Install [Heroku Toolbelt](https://toolbelt.heroku.com)
+* Log into Heroku using the command line
+* cd to your project directory
+* run `heroku create --buildpack https://github.com/tonycoco/heroku-buildpack-ember-cli.git`
+* run `git push heroku master`
+* navigate to heroku generated page and enjoy!
 
 ## Further Reading / Useful Links
 

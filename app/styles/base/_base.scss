@@ -10,6 +10,10 @@ body{
   background: $white;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 a{
   text-decoration: none;
   color: $grey;
