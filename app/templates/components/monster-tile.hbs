@@ -1,4 +1,4 @@
-<li>
+<li class="monster-tile">
   <div class="parts-container">
     <h3 class="name-header">{{monster.name}}</h3>
     <img class="head" src="{{monster.head}}" alt="" />
@@ -9,5 +9,15 @@
     <img class="right-leg" src="{{monster.rightLeg}}" alt="" />
     <div class="shadow"></div>
   </div>
-  <button class="main-button" {{action 'delete' monster}}>Delete</button>
+  {{monster-update
+    monster=monster
+    update="update"
+    destroyMonster="destroyMonster"
+    heads=heads
+    torsos=torsos
+    rightArms=rightArms
+    leftArms=leftArms
+    rightLegs=rightLegs
+    leftLegs=leftLegs}}
+      <!-- <button class="main-button half" {{action 'delete' monster}}>Delete</button> -->
 </li>

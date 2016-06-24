@@ -1,0 +1,99 @@
+{{#liquid-if updateMonsterForm }}
+<div class="top-container">
+  <div class="monster-container">
+    <div class="name-container">
+      {{input value=name id="name" placeholder=monster.name}}
+    </div>
+    <div class="hidden">
+      {{input value=heads.name.headSVG id="head"}}
+      {{input value=leftArms.name.leftArmSVG id="leftArm"}}
+      {{input value=rightArms.name.rightArmSVG id="rightArm"}}
+      {{input value=torsos.name.torsoSVG id="torso"}}
+      {{input value=rightLegs.name.rightLegsSVG id="rightLeg"}}
+      {{input value=leftLegs.name.leftLegsSVG id="leftLeg"}}
+    </div>
+    <div class="trait-container">
+      <div class="trait-box-one">
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Head"
+            options=heads
+            selected=heads.name
+            onchange=(action (mut heads.name)) as |head|}}
+            {{head.name}}
+          {{/power-select}}
+        </div>
+
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Right Arm"
+            options=rightArms
+            selected=rightArms.name onchange=(action (mut rightArms.name)) as |rightArm|}}
+            {{rightArm.name}}
+          {{/power-select}}
+        </div>
+
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Right Leg"
+            options=rightLegs
+            selected=rightLegs.name
+            onchange=(action (mut rightLegs.name)) as |rightLeg|}}
+            {{rightLeg.name}}
+          {{/power-select}}
+        </div>
+
+      </div>
+      <div class="trait-box-two">
+
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Torso"
+            options=torsos
+            selected=torsos.name
+            onchange=(action (mut torsos.name)) as |torso|}}
+            {{torso.name}}
+          {{/power-select}}
+        </div>
+
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Left Arm"
+            options=leftArms
+            selected=leftArms.name
+            onchange=(action (mut leftArms.name)) as |leftArm|}}
+            {{leftArm.name}}
+          {{/power-select}}
+        </div>
+
+
+        <div class="button-container">
+          {{#power-select
+            searchEnabled=false
+            placeholder="Left Leg"
+            options=leftLegs
+            selected=leftLegs.name
+            onchange=(action (mut leftLegs.name)) as |leftLeg|}}
+            {{leftLeg.name}}
+          {{/power-select}}
+        </div>
+      </div>
+    </div>
+
+      <button class="main-button" {{action 'update' monster}}>Save</button>
+
+  </div>
+
+</div>
+{{else}}
+
+<div class="gallery-buttons">
+  <button class="main-button half" {{action 'updateMonsterFormShow'}}>Update</button>
+  <button class="main-button half" {{action 'delete' monster}}>Delete</button>
+</div>
+{{/liquid-if}}

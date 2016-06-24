@@ -2,10 +2,11 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
 actions: {
-  delete(monster) {
-    if (confirm('Are you sure you want to delete this Behemoth?')) {
-      this.sendAction('destroyMonster', monster);
-    }
-  }
+  update(monster, params) {
+    this.sendAction('update', monster, params);
+  },
+  destroyMonster(monster) {
+    this.sendAction('destroyMonster', monster);
+  },
 }
 });

@@ -1,5 +1,14 @@
 <ul>
-  {{#each model as |monster|}}
-    {{monster-tile monster=monster destroyMonster="destroyMonster"}}
+  {{#each model.monsters as |monster|}}
+    {{monster-tile
+      monster=monster
+      heads=model.heads
+      torsos=model.torsos
+      leftArms=model.leftArms
+      rightArms=model.rightArms
+      leftLegs=model.leftLegs
+      rightLegs=model.rightLegs
+      destroyMonster="destroyMonster"
+      update="update"}}
   {{/each}}
 </ul>
