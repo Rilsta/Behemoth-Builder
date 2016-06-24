@@ -3,19 +3,76 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1000 600" style="enable-background:new 0 0 1000 600;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#999999;}
-	.st1{fill:#CDCCCC;}
+	.st0{fill:#F7F7F7;}
+	.st1{fill:#999999;}
+	.st2{fill:#CDCCCC;}
 </style>
-<polygon class="st0" points="386,251.4 597.4,617.6 174.6,617.6 "/>
-<polygon class="st0" points="135,370 346.4,621 -76.4,621 "/>
-<polygon class="st0" points="955,350 1166.4,601 743.6,601 "/>
-<polygon class="st0" points="516.4,354.8 727.8,721 305,721 "/>
-<polygon class="st0" points="680.4,153 891.8,600 469,600 "/>
-<polygon class="st0" points="839.4,196 1050.8,643 628,643 "/>
-<polygon class="st1" points="135,370 55.3,464.7 102,441 135,464.7 171.4,444.2 214.7,464.7 "/>
-<polygon class="st1" points="680.4,153 625.6,269 658.3,240 680.4,269 704.8,243.9 735.3,269 "/>
-<polygon class="st1" points="839.4,196 802.8,273.5 824.7,254.1 839.4,273.5 855.7,256.7 876.1,273.5 "/>
-<polygon class="st1" points="955,350 875.3,444.7 922,421 955,444.7 991.4,424.2 1034.7,444.7 "/>
-<polygon class="st1" points="516.4,354.8 458.6,455 492.9,429.9 516.4,455 542.4,433.3 574.3,455 "/>
-<polygon class="st1" points="386,248.8 330.8,347 362.9,322.4 386,347 411.4,325.7 441.9,348.2 "/>
+<ellipse class="st0" cx="718.1" cy="239" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="648.6" cy="215" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="730.1" cy="215" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="606.1" cy="239" rx="59.7" ry="31"/>
+<polygon class="st1" points="386,251.4 597.4,617.6 174.6,617.6 "/>
+<polygon class="st1" points="135,370 346.4,621 -76.4,621 "/>
+<polygon class="st1" points="955,350 1166.4,601 743.6,601 "/>
+<polygon class="st1" points="516.4,354.8 727.8,721 305,721 "/>
+<polygon class="st1" points="680.4,153 891.8,600 469,600 "/>
+<polygon class="st1" points="839.4,196 1050.8,643 628,643 "/>
+<polygon class="st2" points="135,370 55.3,464.7 102,441 135,464.7 171.4,444.2 214.7,464.7 "/>
+<polygon class="st2" points="680.4,153 625.6,269 658.3,240 680.4,269 704.8,243.9 735.3,269 "/>
+<polygon class="st2" points="839.4,196 802.8,273.5 824.7,254.1 839.4,273.5 855.7,256.7 876.1,273.5 "/>
+<polygon class="st2" points="955,350 875.3,444.7 922,421 955,444.7 991.4,424.2 1034.7,444.7 "/>
+<polygon class="st2" points="516.4,354.8 458.6,455 492.9,429.9 516.4,455 542.4,433.3 574.3,455 "/>
+<polygon class="st2" points="386,248.8 330.8,347 362.9,322.4 386,347 411.4,325.7 441.9,348.2 "/>
+<ellipse class="st0" cx="174.6" cy="59" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="130.6" cy="77" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="102.6" cy="51" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="62.6" cy="77" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="11.3" cy="108" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="802.8" cy="12" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="735.3" cy="-11" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="851.8" cy="37" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="922.1" cy="28" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="981.8" cy="77" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="1041.4" cy="113" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="991.2" cy="43" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="981.8" cy="12" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="891.8" cy="-3" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="190.3" cy="99" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="222.3" cy="77" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="59.1" cy="10" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="-8.9" cy="10" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="118.8" cy="32" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="150.8" cy="10" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="306.6" cy="21" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="262.6" cy="39" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="234.6" cy="13" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="194.6" cy="39" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="322.3" cy="61" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="354.3" cy="39" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="618.8" cy="-11" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="604.1" cy="1" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="663.8" cy="-3" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="704.8" cy="10" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="764.4" cy="32" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="689.1" cy="196" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="406" cy="223.5" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="346.4" cy="246" rx="59.7" ry="31"/>
+<ellipse class="st0" cx="803.1" cy="219.7" rx="29" ry="15.1"/>
+<ellipse class="st0" cx="810.4" cy="233.7" rx="29" ry="15.1"/>
+<ellipse class="st0" cx="793.8" cy="235.4" rx="29" ry="15.1"/>
+<ellipse class="st0" cx="832.1" cy="227" rx="29" ry="15.1"/>
+<ellipse class="st0" cx="636" cy="223.5" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="589" cy="208" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="574.3" cy="223.5" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="71" cy="113" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="544.5" cy="239" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="281.9" cy="239" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="286.8" cy="220.3" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="322.3" cy="215" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="252.1" cy="230.5" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="406" cy="251.4" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="458.6" cy="246" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="354.3" cy="211" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="567.6" cy="251.4" rx="29.8" ry="15.5"/>
+<ellipse class="st0" cx="713.8" cy="215" rx="29.8" ry="15.5"/>
 </svg>
